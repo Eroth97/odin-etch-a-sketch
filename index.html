@@ -15,11 +15,24 @@
 
         <div class="page-center">
             <div id="etch-box"></div>
-            <div>
-                <input type="number" id="number" min="0" max="100" placeholder="50">
-                <button id='select'>Select</button>
+            <div class="options big-gap">
+                <div class="options">
+                    <p>How many squares do you need? (Max. 100)</p>
+                    <div>
+                        <input type="number" id="number" min="0" max="100" placeholder="50">
+                        <button id='select'>Select</button>
+                    </div>
+                </div>
+                <div class="options">
+                    <p>How do you want to paint?</p>
+                    <div>
+                        <input id="black" type="radio" name="radio-b" checked>
+                        <label for="black">Black</label><br>
+                        <input id="rainbow"type="radio" name="radio-b">
+                        <label for="rainbow">Rainbow</label>
+                    </div>
+                </div>
             </div>
         </div>
-
     </body>
 </html>

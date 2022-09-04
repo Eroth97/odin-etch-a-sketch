@@ -28,3 +28,14 @@ body{
     display: flex;
     gap: 20px;
 }
+
+.options{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.big-gap{
+    gap: 40px;
+    width: 200px;
+}
