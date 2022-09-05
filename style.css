@@ -64,3 +64,30 @@ footer{
     gap: 40px;
     width: 200px;
 }
+
+.big-gap .options{    
+    background-color: #24527a;
+    color: #e0ebeb;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.options p{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+button, input{
+    padding: 4px;
+    background-color: #5dacbd;
+    border-radius: 8px;
+    color: black;
+    border: 2px solid #030225;
+}
+
+/* Remember that, per documentation, this type of pseudoelement is experimental 
+and its behavior is expected to change*/
+input::placeholder{
+    color: black;
+}
+
