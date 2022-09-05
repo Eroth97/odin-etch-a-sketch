@@ -1,2 +1,2 @@
 # odin-etch-a-sketch
-Etch a Sketch project TOP
+With this project I had to practice my DOM manipulation. It also showed me the importance of documentation. Most of the time (if not all of it) the answer to my questions was there. I practiced also my loops logic and tried to apply all the clean code practices that have been shown until this moment on the TOP. I also made some dumb commits messages and learned how to change them when required.
