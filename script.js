@@ -3,7 +3,6 @@ let etchBox = document.getElementById('etch-box');
 let black = document.getElementById('black');
 let rainbow = document.getElementById('rainbow');
 
-
 //Make the initial etch box of 50 squares and add black hovering.
 makeSquares(50);
 blackHover();

@@ -1,20 +1,45 @@
 body{
+    font-family: 'Cormorant Garamond', serif;
     height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    background: #5dacbd;
+}
+
+.title, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24527a;
+    color: #e0ebeb;
+}
+
+footer{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-/* #etch-box div{
-    border: 2px solid red;
-} */
-/* 
-.px-5{
-    height: 50px;
-    width: 50px;
-    border: 0px;
-} */
+.new-div{
+    background-color: #e0ebeb;
+}
+
+.lefty-footer-part{
+    flex-direction: column;
+}
+
+.lefty-footer-part p{
+    margin: 4px;
+}
+
+.page-center{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 
 #etch-box{
     display: flex;
