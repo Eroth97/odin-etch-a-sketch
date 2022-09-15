@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+        </style>
         <script src="./script.js" defer></script>
         <title>Etch a Sketch</title>
     </head>
@@ -16,11 +19,15 @@
         <div class="page-center">
             <div id="etch-box"></div>
             <div class="options big-gap">
-                <div class="options">
-                    <p>How many squares do you need? (Max. 100)</p>
+                <div class="options center">
                     <div>
-                        <input type="number" id="number" min="0" max="100" placeholder="50">
-                        <button id='select'>Select</button>
+                        <input type="range" 
+                               name="squares" 
+                               id="slider" 
+                               min="1" 
+                               max="100" 
+                               value="50">
+                        <output for="slider" id="output-slider"></output>
                     </div>
                 </div>
                 <div class="options">

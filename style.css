@@ -91,3 +91,11 @@ input::placeholder{
     color: black;
 }
 
+/* Make the output-slider have its own line */
+#output-slider{
+    display: block;
+}
+
+.center{
+    text-align: center;
+}

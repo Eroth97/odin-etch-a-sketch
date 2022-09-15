@@ -20,11 +20,17 @@ rainbow.addEventListener('click', () => {
 
 
 //Create the event listener for our button to invoke the makeSquares function.
-let selection = document.getElementById('select');
-selection.addEventListener('click', () => {
-    //Use this code to get a number from the user. 
-    let numberID = document.getElementById('number');
-    let number = Number(numberID.value);
+
+//The idea will be to put select the slider and its value
+let slider = document.getElementById('slider');
+let outputSlider = document.getElementById('output-slider');
+outputSlider.textContent = `${slider.value} by ${slider.value} grid`; //We print on screen the first value.
+
+//The listener will look for a change.
+slider.addEventListener('input', () => {
+    //This code will look for the slider value, print it on screen and save it for later use.
+    outputSlider.textContent = `${slider.value} by ${slider.value} grid`; 
+    const number = new Number(slider.value)
 
     //The etch box has to be colored as the user wanted.
     if (rainbow.checked){
